@@ -1,0 +1,206 @@
+{
+    "menus": [
+        {
+            "id": 1,
+            "text": "ABOUT",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 2,
+            "text": "SERVICES",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 3,
+            "text": "TECHNOLOGIES",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 4,
+            "text": "HOW TO",
+            "href": "https://react.dev/"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "title": "SIMULATION",
+            "src": "product1.png",
+            "alt": "vr product",
+            "text": "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
+            "linkText": "TRY IT NOW",
+            "linkHref": "https://react.dev/"
+        },
+        {
+            "id": 2,
+            "title": "EDUCATION",
+            "src": "product2.png",
+            "alt": "vr product",
+            "text": "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
+            "linkText": "TRY IT NOW",
+            "linkHref": "https://react.dev/"
+        },
+        {
+            "id": 3,
+            "title": "SELF-CARE",
+            "src": "product3.png",
+            "alt": "product3.png",
+            "text": "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
+            "linkText": "TRY IT NOW",
+            "linkHref": "https://react.dev/"
+        },
+        {
+            "id": 4,
+            "title": "OUTDOOR",
+            "src": "product4.png",
+            "alt": "vr product",
+            "text": "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
+            "linkText": "TRY IT NOW",
+            "linkHref": "https://react.dev/"
+        }
+    ],
+    "technologies": [
+        {
+            "id": "1",
+            "src": "tech1.png",
+            "href": "https://react.dev/",
+            "alt": "technologies"
+        },
+        {
+            "id": "2",
+            "src": "tech2.png",
+            "href": "https://react.dev/",
+            "alt": "technologies"
+        },
+        {
+            "id": "3",
+            "src": "tech4.png",
+            "href": "https://react.dev/",
+            "alt": "technologies"
+        },
+        {
+            "id": "4",
+            "src": "tech4.png",
+            "href": "https://react.dev/",
+            "alt": "technologies"
+        }
+    ],
+    "footerMenu": [
+        {
+            "id": 1,
+            "text": "ABOUT",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 2,
+            "text": "SERVICES",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 3,
+            "text": "TECHNOLOGIES",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 4,
+            "text": "HOW TO",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 5,
+            "text": "JOIN HYDRA",
+            "href": "https://react.dev/"
+        }
+    ],
+    "quickAccess": [
+        {
+            "id": 1,
+            "text": "F.A.Q",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 2,
+            "text": "SITEMAP",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 3,
+            "text": "CONDITIONS",
+            "href": "https://react.dev/"
+        },
+        {
+            "id": 4,
+            "text": "LICENSES",
+            "href": "https://react.dev/"
+        }
+    ],
+    "headsets": [
+        {
+            "id": "1",
+            "src": "product1.webp",
+            "href": "https://react.dev/",
+            "title": "Meta Quest 2",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, aliquam",
+            "count": "1",
+            "wishlist": "false"
+        },
+        {
+            "id": "2",
+            "src": "product2.webp",
+            "href": "https://react.dev/",
+            "title": "PlayStation VR",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, aliquam",
+            "count": "1",
+            "wishlist": "false"
+        },
+        {
+            "id": "3",
+            "src": "product3.webp",
+            "href": "https://react.dev/",
+            "title": "Valve Index",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, aliquam",
+            "count": "1",
+            "wishlist": "false"
+        },
+        {
+            "id": "4",
+            "src": "product4.webp",
+            "href": "https://react.dev/",
+            "title": "HTC Vive",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, aliquam",
+            "count": "1",
+            "wishlist": "false"
+        },
+        {
+            "id": "5",
+            "src": "product5.webp",
+            "href": "https://react.dev/",
+            "title": "HP Reverb",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, aliquam",
+            "count": "1",
+            "wishlist": "false"
+        }
+    ],
+    "faq": [
+        {
+            "id": "1",
+            "question": "WHAT IS VIRTUAL REALITY?",
+            "answer": "This is an easy one, and the answer to this can actually be found directly on our website FAQ section. Anyhow, Virtual Reality or simply VR is the full immersive 3D experience that the users receive with VR wearables. This computer generated environment is interacted by a person who either becomes part of this virtual world or is immersed within this environment and is capable of manipulating objects or performing a series of actions."
+        },
+        {
+            "id": "2",
+            "question": "WHICH ARE THE BEST HEAD MOUNTED DISPLAYS IN 2019?",
+            "answer": "Nowadays VR devices can be classified into three distinct groups: Mobile based VR, PC based VR, and Standalone VR Devices."
+        },
+        {
+            "id": "3",
+            "question": "WHAT IS THE PROJECTED SIZE OF THE VR MARKET WORLDWIDE?",
+            "answer": "According to Statista the size of the AR & VR market is growing exponentially! In 2016 the size of the market is valued at USD 6.1 billion, in 2017. it has more then doubled to almost USD 14 billion, and for 2020, the AR & VR market is estimated to reach an astounding USD 143 billion worldwide!"
+        },
+        {
+            "id": "4",
+            "question": "HOW CAN MY COMPANY USE VR TO DIFFERENTIATE?",
+            "answer": "Has your industry niche used VR, or do your competitors use VR? If not, then you will have a jump start on them! Virtual Reality gives you an edge over the competition, and lets your users engage with your product or service easier."
+        }
+    ]
+}

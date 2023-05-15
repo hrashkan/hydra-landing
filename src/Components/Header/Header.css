@@ -1,0 +1,123 @@
+.header_toggle {
+    display: none;
+}
+
+.header-logo {
+    max-width: 8rem;
+}
+
+.header__logo-img {
+    width: 100%;
+}
+
+.header__logo-img:hover {
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header_list-link {
+    color: var(--white);
+    font-family: var(--secondary-font);
+    font-size: 1.2rem;
+    transition: all .2s ease-in-out;
+}
+
+.header_list-link:hover {
+    color: var(--periwinkle-blue);
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header_contact-button {
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    color: var(--white);
+    border: 0.2rem solid var(--white);
+    border-radius: 4rem;
+    padding: 0.5rem 1.5rem;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_contact-button:hover {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: .2rem solid var(--periwinkle-blue);
+}
+
+.header__wishlist,
+.header__basket {
+    font-size: 1.3rem;
+    font-family: var(--secondary-font);
+    margin-right: 1.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.header__wishlist-badge,
+.header__wishlist-badge {
+    position: absolute;
+    top: -1.5rem;
+    font-family: var(--primary-font);
+    right: -0.5rem;
+}
+
+.header_toggle-button {
+    position: relative;
+    width: 3rem;
+    height: .2rem;
+    background-color: var(--white);
+}
+
+.header_toggle-button::after,
+.header_toggle-button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .2rem;
+    background-color: var(--white);
+    transition: all .2 ease-in-out;
+}
+
+.header_toggle-button::after {
+    bottom: -.8rem;
+}
+
+.header_toggle-button::before {
+    top: -.8rem;
+}
+
+.header_toggle-button--active {
+    background: transparent;
+}
+
+.header_toggle-button--active:after {
+    transform: rotate(-45deg);
+    bottom: 0;
+}
+
+.header_toggle-button--active::before {
+    transform: rotate(45deg);
+    top: 0;
+}
